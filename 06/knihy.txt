@@ -1,0 +1,4 @@
+Farma zvířat;George Orwell;A;povídka;19.02.2007
+Malý princ;Exupery;B;pohádka;05.11.1949
+1984;George Orwell;B;román;06.06.1257
+Petr a Lucie;Rolland;C;povídka;14.12.2012
