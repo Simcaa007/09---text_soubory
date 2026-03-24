@@ -1,0 +1,6 @@
+1 5 8 soucet je: 14
+8   6   1 soucet je: 15
+1 1 1 soucet je: 3
+2   2   2 soucet je: 6
+3   4 5 soucet je: 12
+Celkem soucet je: 50
