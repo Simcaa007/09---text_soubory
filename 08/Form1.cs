@@ -37,11 +37,11 @@ namespace _08
         {
             StreamWriter sw = new StreamWriter(openFileDialog1.FileName, false);
             sw.Write("");
+            listBox2.Items.Clear();
             if (comboBox1.SelectedIndex == 0)
             {
                 foreach (string s in listBox1.Items)
                 {
-                    sw.WriteLine(s.ToLower());
                     listBox2.Items.Add(s.ToLower());
                 }
             }
@@ -49,10 +49,15 @@ namespace _08
             {
                 foreach (string s in listBox1.Items)
                 {
-                    sw.WriteLine(s.ToUpper());
                     listBox2.Items.Add(s.ToUpper());
                 }
             }
+
+            foreach (string s in listBox2.Items)
+            {
+                sw.WriteLine(s.ToString());
+            }
+            sw.Close();
         }
     }
 }
